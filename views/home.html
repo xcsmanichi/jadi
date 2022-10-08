@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Profile</title>
+    <link rel="stylesheet" type="text/css" href="data2/css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link rel="shortcut icon" href="img/icons/icon-48x48.png" />
+	
+		<link rel="canonical" href="https://demo-basic.adminkit.io/" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <div class="main-width">
+      <header>
+        <div class="logo">
+          <h1>XORIZN</h1>
+        </div>
+
+        <nav>
+          <div class="hamb">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+
+          <ul class="nav-list">
+            <li id="navs1"><a href="/">Home</a></li>
+            <li id="navs2"><a onClick="scrollToSection()" href="#">About</a></li>
+            <li id="navs3"><a href="/apis">Api's</a></li>
+            <li id="navs4"><a href="/home">Doc</a></li>
+            <li class="btn"><a href="https://github.com/Xorizn">Github</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="container">
+        <div class="page-text">
+          <h3 data-aos="fade-up">Hi, User</h3>
+          <h1>Saya <span class="looptxt"></span></h1>
+          <p data-aos="fade-up" id="fade-down">
+            Hello my name is Xorizn, I'm from Bali You can download free script
+            bot whatsapp in my website
+          </p>
+          <div id="fader" class="social">
+            <a href="https://github.com/Xorizn"><i class="fa-brands fa-github"></i></a>
+            <a href="https://instagram.com/balaxdh"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://youtube.com/c/xorizn"><i class="fa-brands fa-youtube"></i></a>
+            <a href="/home"><i class="fa-solid fa-fire"></i></a>
+            <a href="https://xorizn.github.io"><i class="fa-solid fa-code"></i></a>
+          </div>
+          <a href="/home"><button id="fadel" type="button">Docs Api's</button></a>
+        </div>
+
+        <div data-aos="fade-up" class="page2 asiap"><p>About</p>
+        <h4 id="page-2">SIAPA SIH XORIZN?</h4>
+        <p data-aos="fade-up">Halo Nama Gw <b>I Putu Bala Krishna Dasa</b><br>
+        <b>Umur 16 Tahun</b>, Dari Nama aja pasti udah <br> kepikiran kan gw dari mana?, Yap betul <br> gw dari <b>Bali</b>, dan sekarang sekolah di <br> <b>SMA N 1 Bangli,</b> gw belajar coding dari tahun 2021,<br> pas covid jadi bahasa pemograman yang gw bisa <br> adalah(html/css/javascript/python)</p>
+        <div data-aos="fade-up" id="imagez"><img src="data2/profile.jpg" alt="Yuzzu"></div>
+        </div>
+        <div class="bottom"><p>@XORIZN - ALL RIGHTS RESERVED</p></div>
+      </div>
+    </div>
+    <script type="text/javascript" src="data2/js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script>
+      AOS.init({
+        once: false,
+        mirror: true,
+        duration: 600,
+        delay: 30,
+      });
+    </script>
+    <script>
+      var typed = new Typed(".looptxt", {
+        strings: ["Xorizn.", "Bala.", "Dari Bali.", "Manusia.","Bernafas."],
+        typeSpeed: 70,
+        backSpeed: 60,
+        loop: true,
+      });
+    </script>
+    <script>
+      function scrollToSection(){
+	  $('html, body').animate({
+         scrollTop: $('#page-2').offset().top
+    }, 500);
+    }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,1349 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="Yuzzu Kamiyaka" />
+    <meta name="author" content="YuzzuKamiyaka" />
+    <meta
+      name="keywords"
+      content="YuzzuKamiyaka, yuzzu-kamiyaka, bootstrap, yuzzu, kamiyaka, bootstrap 5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, ui kit, web"
+    />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="shortcut icon" href="img/icons/icon-48x48.png" />
+
+    <link
+      rel="canonical"
+      href="https://demo-basic.adminkit.io/ui-typography.html"
+    />
+
+    <title>Website Apis - Yuzzu Kamiyaka</title>
+
+    <link href="css/app.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .centang {
+        margin-left: 75px;
+      }
+      .heading {
+        margin-left: 190px;
+      }
+      .green {
+        color: green;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <nav id="sidebar" class="sidebar js-sidebar">
+        <div class="sidebar-content js-simplebar">
+          <a class="sidebar-brand" href="index.html">
+            <span class="align-middle">Xorizn</span>
+          </a>
+
+          <ul class="sidebar-nav">
+            <li class="sidebar-header">Pages</li>
+
+            <li class="sidebar-item">
+              <a class="sidebar-link" href="/home">
+                <i class="align-middle" data-feather="sliders"></i>
+                <span class="align-middle">Dashboard</span>
+              </a>
+            </li>
+            <li class="sidebar-header">All Api's</li>
+
+            <li class="sidebar-item active">
+              <a class="sidebar-link" href="/apis">
+                <i class="align-middle" data-feather="file"></i>
+                <span class="align-middle">All Api's</span>
+              </a>
+            </li>
+            <li class="sidebar-header">Direct Download</li>
+            <li class="sidebar-item">
+              <a class="sidebar-link" href="/tik-tok">
+                <i class="align-middle" data-feather="download"></i>
+                <span class="align-middle">TikTok </span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link" href="/instagram">
+                <i class="align-middle" data-feather="download"></i>
+                <span class="align-middle">Instagram </span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link" href="/twitter">
+                <i class="align-middle" data-feather="download"></i>
+                <span class="align-middle">Twitter </span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link" href="/facebook">
+                <i class="align-middle" data-feather="download"></i>
+                <span class="align-middle">Facebook </span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a onclick="alert('error')" class="sidebar-link" href="#">
+                <i class="align-middle" data-feather="download"></i>
+                <span class="align-middle">Youtube Mp4 </span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a onclick="alert('error')" class="sidebar-link" href="#">
+                <i class="align-middle" data-feather="download"></i>
+                <span class="align-middle">Youtube Mp3 </span>
+              </a>
+            </li>
+
+            <li class="sidebar-header">Plugins & Addons</li>
+
+            <li class="sidebar-item">
+              <a class="sidebar-link" href="https://Xorizn.github.io/">
+                <i class="align-middle" data-feather="terminal"></i>
+                <span class="align-middle">Bot WhatsApp</span>
+              </a>
+            </li>
+
+            <li class="sidebar-item">
+              <a class="sidebar-link" href="/#page-2">
+                <i class="align-middle" data-feather="info"></i>
+                <span class="align-middle">About</span>
+              </a>
+            </li>
+          </ul>
+
+          <div class="sidebar-cta">
+            <div class="sidebar-cta-content">
+              <strong class="d-inline-block mb-2">Report Bug</strong>
+              <div class="mb-3 text-sm">
+                If there are any bugs, please report directly to the owner.
+              </div>
+              <div class="d-grid">
+                <a href="https://wa.me/6281337541779" class="btn btn-primary"
+                  >Report</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="main">
+        <nav class="navbar navbar-expand navbar-light navbar-bg">
+          <a class="sidebar-toggle js-sidebar-toggle">
+            <i class="hamburger align-self-center"></i>
+          </a>
+
+          <div class="navbar-collapse collapse">
+            <ul class="navbar-nav navbar-align">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-icon dropdown-toggle"
+                  href="#"
+                  id="alertsDropdown"
+                  data-bs-toggle="dropdown"
+                >
+                  <div class="position-relative">
+                    <i class="align-middle" data-feather="bell"></i>
+                    <span class="indicator">2</span>
+                  </div>
+                </a>
+                <div
+                  class="dropdown-menu dropdown-menu-lg dropdown-menu-end py-0"
+                  aria-labelledby="alertsDropdown"
+                >
+                  <div class="dropdown-menu-header">2 New Notifications</div>
+                  <div class="list-group">
+                    <a href="#" class="list-group-item">
+                      <div class="row g-0 align-items-center">
+                        <div class="col-2">
+                          <i
+                            class="text-danger"
+                            data-feather="alert-circle"
+                          ></i>
+                        </div>
+                        <div class="col-10">
+                          <div class="text-dark">Update completed</div>
+                          <div class="text-muted small mt-1">
+                            Restart server heroku
+                          </div>
+                          <div class="text-muted small mt-1">3 month ago</div>
+                        </div>
+                      </div>
+                    </a>
+                    <a href="#" class="list-group-item">
+                      <div class="row g-0 align-items-center">
+                        <div class="col-2">
+                          <i class="text-warning" data-feather="bell"></i>
+                        </div>
+                        <div class="col-10">
+                          <div class="text-dark">Add Features</div>
+                          <div class="text-muted small mt-1">
+                            Add 10 Features
+                          </div>
+                          <div class="text-muted small mt-1">1 month ago</div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="dropdown-menu-footer">
+                    <span class="text-muted">Info</span>
+                  </div>
+                </div>
+              </li>
+
+              <!-- Dancok -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-icon dropdown-toggle"
+                  href="#"
+                  id="messagesDropdown"
+                  data-bs-toggle="dropdown"
+                >
+                  <div class="position-relative">
+                    <i class="align-middle" data-feather="message-square"></i>
+                    <span class="indicator">3</span>
+                  </div>
+                </a>
+                <div
+                  class="dropdown-menu dropdown-menu-lg dropdown-menu-end py-0"
+                  aria-labelledby="messagesDropdown"
+                >
+                  <div class="dropdown-menu-header">
+                    <div class="position-relative">3 New Messages</div>
+                  </div>
+                  <div class="list-group">
+                    <a href="#" class="list-group-item">
+                      <div class="row g-0 align-items-center">
+                        <div class="col-2">
+                          <img
+                            src="img/avatars/avatar-5.jpg"
+                            class="avatar img-fluid rounded-circle"
+                            alt="Vanessa Tucker"
+                          />
+                        </div>
+                        <div class="col-10 ps-2">
+                          <div class="text-dark">Angga</div>
+                          <div class="text-muted small mt-1">
+                            Bagi apikey bang.
+                          </div>
+                          <div class="text-muted small mt-1">15m ago</div>
+                        </div>
+                      </div>
+                    </a>
+                    <a href="#" class="list-group-item">
+                      <div class="row g-0 align-items-center">
+                        <div class="col-2">
+                          <img
+                            src="img/avatars/avatar-2.jpg"
+                            class="avatar img-fluid rounded-circle"
+                            alt="William Harris"
+                          />
+                        </div>
+                        <div class="col-10 ps-2">
+                          <div class="text-dark">Denis</div>
+                          <div class="text-muted small mt-1">
+                            Bagi esce bot whatsapp bang.
+                          </div>
+                          <div class="text-muted small mt-1">2h ago</div>
+                        </div>
+                      </div>
+                    </a>
+                    <a href="#" class="list-group-item">
+                      <div class="row g-0 align-items-center">
+                        <div class="col-2">
+                          <img
+                            src="img/avatars/avatar-6.jpg"
+                            class="avatar img-fluid rounded-circle"
+                            alt="Christina Mason"
+                          />
+                        </div>
+                        <div class="col-10 ps-2">
+                          <div class="text-dark">Selly</div>
+                          <div class="text-muted small mt-1">
+                            Halo sayang, udah makan?.
+                          </div>
+                          <div class="text-muted small mt-1">4h ago</div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="dropdown-menu-footer">
+                    <a href="#" class="text-muted">Messages</a>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-icon dropdown-toggle d-inline-block d-sm-none"
+                  href="#"
+                  data-bs-toggle="dropdown"
+                >
+                  <i class="align-middle" data-feather="settings"></i>
+                </a>
+
+                <a
+                  class="nav-link dropdown-toggle d-none d-sm-inline-block"
+                  href="#"
+                  data-bs-toggle="dropdown"
+                >
+                  <img
+                    src="img/avatars/avatar.jpg"
+                    class="avatar img-fluid rounded me-1"
+                    alt="Xorizn"
+                  />
+                  <span class="text-dark">Xorizn</span>
+                </a>
+                <div class="dropdown-menu dropdown-menu-end">
+                  <a class="dropdown-item" href="/"
+                    ><i class="align-middle me-1" data-feather="home"></i>
+                    Home</a
+                  >
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="https://wa.me/6281337541779"
+                    ><i
+                      class="align-middle me-1"
+                      data-feather="help-circle"
+                    ></i>
+                    Help</a
+                  >
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="/">Log out</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <main class="content">
+          <div class="container-fluid p-0">
+            <div class="mb-3">
+              <h1 class="h3 d-inline align-middle">All Api's</h1>
+            </div>
+            <div class="row">
+              <div class="col-12 col-lg-6">
+                <div class="card">
+                  <div class="card-body">
+                    <table class="table mb-0">
+                      <tbody>
+                        <tr>
+                          <td>
+                            <strong
+                              ><i
+                                class="align-middle me-1"
+                                data-feather="link"
+                              ></i>
+                              Media</strong
+                            >
+                          </td>
+                          <td class="text-end"></td>
+                        </tr>
+                        <!--MEDIA-->
+                        <tr>
+                          <td>Styletext</td>
+                          <td class="text-end">
+                            <a
+                              class="green"
+                              target="_blank"
+                              href="api/styletext?text=xorizn"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Binary</td>
+                          <td class="text-end">
+                            <a
+                              class="green"
+                              target="_blank"
+                              href="api/binary?text=xorizn"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>dBinary</td>
+                          <td class="text-end">
+                            <a
+                              class="green"
+                              target="_blank"
+                              href="api/dbinary?text=00111100 00110011"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Ringtone</td>
+                          <td class="text-end">
+                            <a
+                              class="green"
+                              target="_blank"
+                              href="api/ringtone?judul=miku"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Wikimedia</td>
+                          <td class="text-end">
+                            <a
+                              class="green"
+                              target="_blank"
+                              href="api/wikimedia?judul=anime"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Wiki</td>
+                          <td class="text-end">
+                            <a
+                              class="green"
+                              target="_blank"
+                              href="api/wiki?judul=anime"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Pinterest</td>
+                          <td class="text-end">
+                            <a
+                              class="green"
+                              target="_blank"
+                              href="api/pinterest?judul=anime"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>GoogleSearch</td>
+                          <td class="text-end">
+                            <a
+                            onclick="alert('error')"
+                              class="green"
+                              target="_blank"
+                              href="#"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Wallpaper</td>
+                          <td class="text-end">
+                            <a
+                              class="green"
+                              target="_blank"
+                              href="api/wallpaper?judul=anime"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+
+                        <!-- DOWNLOAD -->
+                        <tr>
+                          <td>
+                            <strong
+                              ><i
+                                class="align-middle me-1"
+                                data-feather="download"
+                              ></i>
+                              Download</strong
+                            >
+                          </td>
+                          <td class="text-end"></td>
+                        </tr>
+                        <tr>
+                          <td>Instagram Download</td>
+                          <td class="text-end">
+                            <a
+                              class="green"
+                              target="_blank"
+                              href="api/igdwn?link=https://www.instagram.com/reel/CVm8wqVF1lm/?utm_medium=copy_link"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Facebook Download</td>
+                          <td class="text-end">
+                            <a
+                              class="green"
+                              target="_blank"
+                              href="api/fbdwn?link=https://www.facebook.com/watch/?v=978695435986421&ref=sharing"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Tik-Tok1 Download</td>
+                          <td class="text-end">
+                            <a
+                              class="green"
+                              target="_blank"
+                              href="api/tiktod1?link=https://vt.tiktok.com/ZSej5RjRP/"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Tik-Tok2 Download</td>
+                          <td class="text-end">
+                            <a
+                              class="green"
+                              target="_blank"
+                              href="api/tiktod2?link=https://vt.tiktok.com/ZSej5RjRP/"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Twitter</td>
+                          <td class="text-end">
+                            <a
+                              class="green"
+                              target="_blank"
+                              href="api/twitter?link=https://twitter.com/PardonMyMeme/status/1576066261918060545?s=20&t=OG5vYef2Rhv7DFLJg7M6CA"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>YtAudio</td>
+                          <td class="text-end">
+                            <a
+                            onclick="alert('error')"
+                              class="green"
+                              target="_blank"
+                              href="#"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>YtVideo</td>
+                          <td class="text-end">
+                            <a
+                            onclick="alert('error')"
+                              class="green"
+                              target="_blank"
+                              href="#"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Mediafire</td>
+                          <td class="text-end">
+                            <a
+                              class="green"
+                              target="_blank"
+                              href="api/mediafire?link=https://www.mediafire.com/download/4iai5zumzt5zyxg"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Joox</td>
+                          <td class="text-end">
+                            <a
+                              class="green"
+                              target="_blank"
+                              href="api/joox?search=lemon"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>YtSearch</td>
+                          <td class="text-end">
+                            <a
+                              
+                              class="green"
+                              target="_blank"
+                              href="api/yts?judul=Lofi"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Translate</td>
+                          <td class="text-end">
+                            <a
+                              class="green"
+                              target="_blank"
+                              href="api/translate?text=halo&to=id"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+
+                        <!--BASE-->
+                        <tr>
+                          <td>
+                            <strong
+                              ><i
+                                class="align-middle me-1"
+                                data-feather="lock"
+                              ></i>
+                              BASE</strong
+                            >
+                          </td>
+                          <td class="text-end"></td>
+                        </tr>
+                        <tr>
+                          <td>Encode Base64</td>
+                          <td class="text-end">
+                            <a
+                              class="green"
+                              target="_blank"
+                              href="api/base?type=base64&encode=YuzzuKamiyaka"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td>Decode Base64</td>
+                          <td class="text-end">
+                            <a
+                              class="green"
+                              target="_blank"
+                              href="api/base?type=base64&decode=Q2hlZW1zR2FudGVuZw=="
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td>Encode Base32</td>
+                          <td class="text-end">
+                            <a
+                              class="green"
+                              target="_blank"
+                              href="api/base?type=base32&encode=YuzzuKamiyaka"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td>Decode Base32</td>
+                          <td class="text-end">
+                            <a
+                              class="green"
+                              target="_blank"
+                              href="api/base?type=base32&decode=INUGKZLNONDWC3TUMVXGO==="
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+                        <!--ANIME-->
+                        <tr>
+                          <td>
+                            <strong
+                              ><i
+                                class="align-middle me-1"
+                                data-feather="tv"
+                              ></i>
+                              Animeh</strong
+                            >
+                          </td>
+                          <td class="text-end"></td>
+                        </tr>
+                        <tr>
+                          <td>Quotes Anime</td>
+                          <td class="text-end">
+                            <a
+                              class="green"
+                              target="_blank"
+                              href="api/quotesanime"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Couple</td>
+                          <td class="text-end">
+                            <a class="green" target="_blank" href="api/couple"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Waifu</td>
+                          <td class="text-end">
+                            <a class="green" target="_blank" href="api/waifu"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Simi</td>
+                          <td class="text-end">
+                            <a
+                              class="green"
+                              target="_blank"
+                              href="api/simi?text=halo"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+
+                        <!--TEXT-->
+                        <tr>
+                          <td>
+                            <strong
+                              ><i
+                                class="align-middle me-1"
+                                data-feather="camera"
+                              ></i>
+                              Photooxy</strong
+                            >
+                          </td>
+                          <td class="text-end"></td>
+                        </tr>
+                        <tr>
+                          <td>Blackpink</td>
+                          <td class="text-end">
+                            <a
+                              class="green"
+                              target="_blank"
+                              href="api/textpro/blackpink?text=Yuzzu"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td>Waterpipe</td>
+                          <td class="text-end">
+                            <a
+                              class="green"
+                              target="_blank"
+                              href="api/textpro/waterpipe?text=Yuzzu"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td>Skeleton</td>
+                          <td class="text-end">
+                            <a
+                              class="green"
+                              target="_blank"
+                              href="api/textpro/skeleton?text=Yuzzu"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td>Pencil</td>
+                          <td class="text-end">
+                            <a
+                              class="green"
+                              target="_blank"
+                              href="api/textpro/pencil?text=Yuzzu"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td>Circuit</td>
+                          <td class="text-end">
+                            <a
+                              class="green"
+                              target="_blank"
+                              href="api/textpro/circuit?text=Yuzzu"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td>Fiction</td>
+                          <td class="text-end">
+                            <a
+                              class="green"
+                              target="_blank"
+                              href="api/textpro/fiction?text=Yuzzu"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td>Thunder</td>
+                          <td class="text-end">
+                            <a
+                              class="green"
+                              target="_blank"
+                              href="api/textpro/thunder?text=Yuzzu"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td>Magma</td>
+                          <td class="text-end">
+                            <a
+                              class="green"
+                              target="_blank"
+                              href="api/textpro/magma?text=Yuzzu"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td>Green Neon</td>
+                          <td class="text-end">
+                            <a
+                              class="green"
+                              target="_blank"
+                              href="api/textpro/green-neon?text=Yuzzu"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td>Neon Futuristic</td>
+                          <td class="text-end">
+                            <a
+                              class="green"
+                              target="_blank"
+                              href="api/textpro/neon-futuristic?text=Yuzzu"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <strong
+                              ><i
+                                class="align-middle me-1"
+                                data-feather="camera"
+                              ></i>
+                              Text Pro Two Text</strong
+                            >
+                          </td>
+                          <td class="text-end"></td>
+                        </tr>
+                        <!-- anu -->
+                        <tr>
+                          <td>Horror</td>
+                          <td class="text-end">
+                            <a
+                              class="green"
+                              target="_blank"
+                              href="api/textpro2/horror?text=Yuzzu&text2=Kamiyaka"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td>Glitch 2</td>
+                          <td class="text-end">
+                            <a
+                              class="green"
+                              target="_blank"
+                              href="api/textpro2/glitch-2?text=Yuzzu&text2=Kamiyaka"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td>Space 3d</td>
+                          <td class="text-end">
+                            <a
+                              class="green"
+                              target="_blank"
+                              href="api/textpro2/space-3d?text=Yuzzu&text2=Kamiyaka"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td>Avengers</td>
+                          <td class="text-end">
+                            <a
+                              class="green"
+                              target="_blank"
+                              href="api/textpro2/avengers?text=Yuzzu&text2=Kamiyaka"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td>Steel Text</td>
+                          <td class="text-end">
+                            <a
+                              class="green"
+                              target="_blank"
+                              href="api/textpro2/steel-text?text=Yuzzu&text2=Kamiyaka"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td>Layered Text</td>
+                          <td class="text-end">
+                            <a
+                              class="green"
+                              target="_blank"
+                              href="api/textpro2/layered-text?text=Yuzzu&text2=Kamiyaka"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td>Captain America</td>
+                          <td class="text-end">
+                            <a
+                              class="green"
+                              target="_blank"
+                              href="api/textpro2/captain-america?text=Yuzzu&text2=Kamiyaka"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td>Marvel Studio</td>
+                          <td class="text-end">
+                            <a
+                              class="green"
+                              target="_blank"
+                              href="api/textpro2/marvel-studio?text=Yuzzu&text2=Kamiyaka"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td>Pornhub</td>
+                          <td class="text-end">
+                            <a
+                              class="green"
+                              target="_blank"
+                              href="api/textpro2/pornhub?text=Yuzzu&text2=Kamiyaka"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td>Glitch</td>
+                          <td class="text-end">
+                            <a
+                              class="green"
+                              target="_blank"
+                              href="api/textpro2/glitch?text=Yuzzu&text2=Kamiyaka"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+
+                        <!--FUN-->
+                        <tr>
+                          <td>
+                            <strong
+                              ><i
+                                class="align-middle me-1"
+                                data-feather="coffee"
+                              ></i>
+                              Fun</strong
+                            >
+                          </td>
+                          <td class="text-end"></td>
+                        </tr>
+
+                        <tr>
+                          <td>Tebakgambar</td>
+                          <td class="text-end">
+                            <a
+                              class="green"
+                              target="_blank"
+                              href="api/tebakgambar"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Darkjokes</td>
+                          <td class="text-end">
+                            <a
+                              class="green"
+                              target="_blank"
+                              href="api/darkjokes"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Caklontong</td>
+                          <td class="text-end">
+                            <a
+                              class="green"
+                              target="_blank"
+                              href="api/caklontong"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+
+                        <!--NEWS-->
+                        <tr>
+                          <td>
+                            <strong
+                              ><i
+                                class="align-middle me-1"
+                                data-feather="radio"
+                              ></i>
+                              News</strong
+                            >
+                          </td>
+                          <td class="text-end"></td>
+                        </tr>
+
+                        <tr>
+                          <td>Infogempa</td>
+                          <td class="text-end">
+                            <a
+                              class="green"
+                              target="_blank"
+                              href="api/news/infogempa"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Covidworld</td>
+                          <td class="text-end">
+                            <a
+                              class="green"
+                              target="_blank"
+                              href="api/news/covidworld"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>CNN</td>
+                          <td class="text-end">
+                            <a class="green" target="_blank" href="api/news/cnn"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>CNBC</td>
+                          <td class="text-end">
+                            <a
+                              class="green"
+                              target="_blank"
+                              href="api/news/cnbc"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Republika</td>
+                          <td class="text-end">
+                            <a
+                              class="green"
+                              target="_blank"
+                              href="api/news/republika"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Tempo</td>
+                          <td class="text-end">
+                            <a
+                              class="green"
+                              target="_blank"
+                              href="api/news/tempo"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Antara</td>
+                          <td class="text-end">
+                            <a
+                              class="green"
+                              target="_blank"
+                              href="api/news/antara"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Kumparan</td>
+                          <td class="text-end">
+                            <a
+                              class="green"
+                              target="_blank"
+                              href="api/news/kumparan"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Jadwaltv</td>
+                          <td class="text-end">
+                            <a
+                              class="green"
+                              target="_blank"
+                              href="api/jadwaltv?jadwal=rcti"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+
+                        <!--WELCOMER-->
+                        <tr>
+                          <td>
+                            <strong
+                              ><i
+                                class="align-middle me-1"
+                                data-feather="image"
+                              ></i>
+                              Welcomer</strong
+                            >
+                          </td>
+                          <td class="text-end"></td>
+                        </tr>
+                        <tr>
+                          <td>Level Up</td>
+                          <td class="text-end">
+                            <a
+                              class="green"
+                              target="_blank"
+                              href="api/level?icon=https://i.ibb.co/KGg5rZy/yuzzu-icon.jpg"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td>Welcome</td>
+                          <td class="text-end">
+                            <a
+                              class="green"
+                              target="_blank"
+                              href="api/welcome?icon=https://i.ibb.co/KGg5rZy/yuzzu-icon.jpg&name=Yzuzu&bgurl=https://i.ibb.co/4YBNyvP/images-76.jpg&gcname=Yuzzu&mem=200"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td>GoodBye</td>
+                          <td class="text-end">
+                            <a
+                              class="green"
+                              target="_blank"
+                              href="api/goodbye?icon=https://i.ibb.co/KGg5rZy/yuzzu-icon.jpg&name=Yuzzu&bgurl=https://i.ibb.co/4YBNyvP/images-76.jpg&gcname=Yuzzu&mem=200"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td>Welcome 2</td>
+                          <td class="text-end">
+                            <a
+                              class="green"
+                              target="_blank"
+                              href="api/welcome2?name=Yuzzu&mem=200&gcname=Yuzzu&picurl=https://i.ibb.co/KGg5rZy/yuzzu-icon.jpg&bgurl=https://i.ibb.co/4YBNyvP/images-76.jpg&gcicon=https://i.ibb.co/KGg5rZy/yuzzu-icon.jpg"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td>GoodBye 2</td>
+                          <td class="text-end">
+                            <a
+                              class="green"
+                              target="_blank"
+                              href="api/goodbye2?name=Yuzzu&mem=200&gcname=Yuzzu&picurl=https://i.ibb.co/KGg5rZy/yuzzu-icon.jpg&bgurl=https://i.ibb.co/4YBNyvP/images-76.jpg&gcicon=https://i.ibb.co/KGg5rZy/yuzzu-icon.jpg"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td>Welcome 3</td>
+                          <td class="text-end">
+                            <a
+                              class="green"
+                              target="_blank"
+                              href="api/welcome3?user=Yuzzu&iminator=200&mem=200&gcname=Yuzzu&avatar=https://i.ibb.co/KGg5rZy/yuzzu-icon.jpg&bgurl=https://i.ibb.co/4YBNyvP/images-76.jpg"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td>GoodBye 3</td>
+                          <td class="text-end">
+                            <a
+                              class="green"
+                              target="_blank"
+                              href="api/goodbye3?user=Yuzzu&iminator=200&mem=200&gcname=Yuzzu&avatar=https://i.ibb.co/KGg5rZy/yuzzu-icon.jpg&bgurl=https://i.ibb.co/4YBNyvP/images-76.jpg"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td>Rank</td>
+                          <td class="text-end">
+                            <a
+                              class="green"
+                              target="_blank"
+                              href="api/rank?icon=https://i.ibb.co/KGg5rZy/yuzzu-icon.jpg&user=Yuzzu&bgurl=https://i.ibb.co/4YBNyvP/images-76.jpg&needxp=1000&currxp=100&level=6&rank=https://i.ibb.co/Wn9cvnv/FABLED.png"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+                        <!--NEWS-->
+                        <tr>
+                          <td>
+                            <strong
+                              ><i
+                                class="align-middle me-1"
+                                data-feather="folder"
+                              ></i>
+                              Other</strong
+                            >
+                          </td>
+                          <td class="text-end"></td>
+                        </tr>
+                        <tr>
+                          <td>Short Url</td>
+                          <td class="text-end">
+                            <a
+                              class="green"
+                              target="_blank"
+                              href="api/shorturl?url=https://www.mediafire.com/file/loydys4ztwnjwgy/CrewYuz44.zip/file"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td>Kbbi</td>
+                          <td class="text-end">
+                            <a
+                              class="green"
+                              target="_blank"
+                              href="api/kbbi?kata=Aku"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td>Kode Pos</td>
+                          <td class="text-end">
+                            <a
+                              class="green"
+                              target="_blank"
+                              href="api/kodepos?kota=Jakarta"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Npm Stalk</td>
+                          <td class="text-end">
+                            <a
+                              class="green"
+                              target="_blank"
+                              href="api/infonpm?query=yuzzu-api"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td>Repository Stalk</td>
+                          <td class="text-end">
+                            <a
+                              class="green"
+                              target="_blank"
+                              href="api/repository/stalk?username=yuzzu-apis"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td>Github Stalk</td>
+                          <td class="text-end">
+                            <a
+                              class="green"
+                              target="_blank"
+                              href="api/github/stalk?username=YuzzuKamiyaka"
+                              >Get</a
+                            >
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+
+        <footer class="footer">
+          <div class="container-fluid">
+            <div class="row text-muted">
+              <center>
+                <p class="mb-0">
+                  <a
+                    class="text-muted"
+                    href="https://youtube.com/c/Xorizn"
+                    target="_blank"
+                    ><center>COPYRIGHTS</center>
+                    &copy;<strong>XORIZN ALL RIGHTS RESERVED</strong></a
+                  >
+                </p>
+              </center>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>

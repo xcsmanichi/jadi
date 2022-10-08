@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+		  name="viewport"
+		  content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
+		<meta name="description" content="Xorizn" />
+		<meta name="author" content="Xorizn" />
+		<meta
+		  name="keywords"
+		  content="YuzzuKamiyaka, Xorizn, yuzzu-kamiyaka, bootstrap, yuzzu, kamiyaka, bootstrap 5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, ui kit, web"
+		/>
+	
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link rel="shortcut icon" href="img/icons/icon-48x48.png" />
+	
+		<link rel="canonical" href="https://demo-basic.adminkit.io/" />
+
+	<title>Website Apis - Xorizn</title>
+<link class="jsbin" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/base/jquery-ui.css" rel="stylesheet" type="text/css" />
+<script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.0/jquery-ui.min.js"></script>
+	<link href="css/app.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=PT+Sans'><link rel="stylesheet" href="./style.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<style>
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+ 
+}
+.hooh {
+	text-align: center;
+	margin-left: 100px;
+	margin-top: 30px;
+}
+.anua {
+	margin-top: 30px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+.centang {
+    margin-left: 75px;
+}
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+.heading {
+    margin-left: 190px;
+}
+.green {
+    color: green;
+}
+	</style>
+</head>
+
+<body>
+	<div class="wrapper">
+		<nav id="sidebar" class="sidebar js-sidebar">
+			<div class="sidebar-content js-simplebar">
+			  <a class="sidebar-brand" href="index.html">
+				<span class="align-middle">Xorizn</span>
+			  </a>
+	
+			  <ul class="sidebar-nav">
+				<li class="sidebar-header">Pages</li>
+	
+				<li class="sidebar-item">
+				  <a class="sidebar-link" href="/home">
+					<i class="align-middle" data-feather="sliders"></i>
+					<span class="align-middle">Dashboard</span>
+				  </a>
+				</li>
+				<li class="sidebar-header">All Api's</li>
+				<!--
+	Dari Sini Anying
+	Anying Li Babi
+	-->
+				<li class="sidebar-item">
+				  <a class="sidebar-link" href="/download">
+					<i class="align-middle" data-feather="file"></i>
+					<span class="align-middle">All Api's</span>
+				  </a>
+				</li>
+				<li class="sidebar-header">Direct Download</li>
+				<li class="sidebar-item">
+				  <a class="sidebar-link" href="/tik-tok">
+					<i class="align-middle" data-feather="download"></i>
+					<span class="align-middle">TikTok </span>
+				  </a>
+				</li>
+				<li class="sidebar-item ">
+				  <a class="sidebar-link" href="/instagram">
+					<i class="align-middle" data-feather="download"></i>
+					<span class="align-middle">Instagram </span>
+				  </a>
+				</li>
+				<li class="sidebar-item">
+				  <a class="sidebar-link" href="/facebook">
+					<i class="align-middle" data-feather="download"></i>
+					<span class="align-middle">Facebook </span>
+				  </a>
+				</li>
+				<li class="sidebar-item active">
+				  <a class="sidebar-link" href="/twitter">
+					<i class="align-middle" data-feather="download"></i>
+					<span class="align-middle">Twitter </span>
+				  </a>
+				</li>
+				<li class="sidebar-item">
+					<a class="sidebar-link" href="/facebook">
+					  <i class="align-middle" data-feather="download"></i>
+					  <span class="align-middle">Facebook </span>
+					</a>
+				  </li>
+				<li class="sidebar-item">
+				  <a onclick="alert('error')" class="sidebar-link" href="#">
+					<i class="align-middle" data-feather="download"></i>
+					<span class="align-middle">Youtube Mp4 </span>
+				  </a>
+				</li>
+				<li class="sidebar-item">
+				  <a onclick="alert('error')" class="sidebar-link" href="#">
+					<i class="align-middle" data-feather="download"></i>
+					<span class="align-middle">Youtube Mp3 </span>
+				  </a>
+				</li>
+	
+				<li class="sidebar-header">Plugins & Addons</li>
+	
+				<li class="sidebar-item">
+				  <a class="sidebar-link" href="https://Xorizn.github.io/">
+					<i class="align-middle" data-feather="terminal"></i>
+					<span class="align-middle">Bot WhatsApp</span>
+				  </a>
+				</li>
+	
+				<li class="sidebar-item">
+				  <a class="sidebar-link" href="/#page-2">
+					<i class="align-middle" data-feather="info"></i>
+					<span class="align-middle">About</span>
+				  </a>
+				</li>
+			  </ul>
+	
+			  <div class="sidebar-cta">
+				<div class="sidebar-cta-content">
+				  <strong class="d-inline-block mb-2">Report Bug</strong>
+				  <div class="mb-3 text-sm">
+					If there are any bugs, please report directly to the owner.
+				  </div>
+				  <div class="d-grid">
+					<a href="https://wa.me/6281337541779" class="btn btn-primary"
+					  >Report</a
+					>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		  </nav>
+
+		<div class="main">
+			<nav class="navbar navbar-expand navbar-light navbar-bg">
+				<a class="sidebar-toggle js-sidebar-toggle">
+				  <i class="hamburger align-self-center"></i>
+				</a>
+	  
+				<div class="navbar-collapse collapse">
+				  <ul class="navbar-nav navbar-align">
+					<li class="nav-item dropdown">
+					  <a
+						class="nav-icon dropdown-toggle"
+						href="#"
+						id="alertsDropdown"
+						data-bs-toggle="dropdown"
+					  >
+						<div class="position-relative">
+						  <i class="align-middle" data-feather="bell"></i>
+						  <span class="indicator">2</span>
+						</div>
+					  </a>
+					  <div
+						class="dropdown-menu dropdown-menu-lg dropdown-menu-end py-0"
+						aria-labelledby="alertsDropdown"
+					  >
+						<div class="dropdown-menu-header">2 New Notifications</div>
+						<div class="list-group">
+						  <a href="#" class="list-group-item">
+							<div class="row g-0 align-items-center">
+							  <div class="col-2">
+								<i
+								  class="text-danger"
+								  data-feather="alert-circle"
+								></i>
+							  </div>
+							  <div class="col-10">
+								<div class="text-dark">Update completed</div>
+								<div class="text-muted small mt-1">
+								  Restart server heroku
+								</div>
+								<div class="text-muted small mt-1">3 month ago</div>
+							  </div>
+							</div>
+						  </a>
+						  <a href="#" class="list-group-item">
+							<div class="row g-0 align-items-center">
+							  <div class="col-2">
+								<i class="text-warning" data-feather="bell"></i>
+							  </div>
+							  <div class="col-10">
+								<div class="text-dark">Add Features</div>
+								<div class="text-muted small mt-1">
+								  Add 10 Features
+								</div>
+								<div class="text-muted small mt-1">1 month ago</div>
+							  </div>
+							</div>
+						  </a>
+						</div>
+						<div class="dropdown-menu-footer">
+						  <span class="text-muted">Info</span>
+						</div>
+					  </div>
+					</li>
+	  
+					<!-- Dancok -->
+					<li class="nav-item dropdown">
+					  <a
+						class="nav-icon dropdown-toggle"
+						href="#"
+						id="messagesDropdown"
+						data-bs-toggle="dropdown"
+					  >
+						<div class="position-relative">
+						  <i class="align-middle" data-feather="message-square"></i>
+						  <span class="indicator">3</span>
+						</div>
+					  </a>
+					  <div
+						class="dropdown-menu dropdown-menu-lg dropdown-menu-end py-0"
+						aria-labelledby="messagesDropdown"
+					  >
+						<div class="dropdown-menu-header">
+						  <div class="position-relative">3 New Messages</div>
+						</div>
+						<div class="list-group">
+						  <a href="#" class="list-group-item">
+							<div class="row g-0 align-items-center">
+							  <div class="col-2">
+								<img
+								  src="img/avatars/avatar-5.jpg"
+								  class="avatar img-fluid rounded-circle"
+								  alt="Vanessa Tucker"
+								/>
+							  </div>
+							  <div class="col-10 ps-2">
+								<div class="text-dark">Angga</div>
+								<div class="text-muted small mt-1">
+								  Bagi apikey bang.
+								</div>
+								<div class="text-muted small mt-1">15m ago</div>
+							  </div>
+							</div>
+						  </a>
+						  <a href="#" class="list-group-item">
+							<div class="row g-0 align-items-center">
+							  <div class="col-2">
+								<img
+								  src="img/avatars/avatar-2.jpg"
+								  class="avatar img-fluid rounded-circle"
+								  alt="William Harris"
+								/>
+							  </div>
+							  <div class="col-10 ps-2">
+								<div class="text-dark">Denis</div>
+								<div class="text-muted small mt-1">
+								  Bagi esce bot whatsapp bang.
+								</div>
+								<div class="text-muted small mt-1">2h ago</div>
+							  </div>
+							</div>
+						  </a>
+						  <a href="#" class="list-group-item">
+							<div class="row g-0 align-items-center">
+							  <div class="col-2">
+								<img
+								  src="img/avatars/avatar-6.jpg"
+								  class="avatar img-fluid rounded-circle"
+								  alt="Christina Mason"
+								/>
+							  </div>
+							  <div class="col-10 ps-2">
+								<div class="text-dark">Selly</div>
+								<div class="text-muted small mt-1">
+								  Halo sayang, udah makan?.
+								</div>
+								<div class="text-muted small mt-1">4h ago</div>
+							  </div>
+							</div>
+						  </a>
+						</div>
+						<div class="dropdown-menu-footer">
+						  <a href="#" class="text-muted">Messages</a>
+						</div>
+					  </div>
+					</li>
+					<li class="nav-item dropdown">
+					  <a
+						class="nav-icon dropdown-toggle d-inline-block d-sm-none"
+						href="#"
+						data-bs-toggle="dropdown"
+					  >
+						<i class="align-middle" data-feather="settings"></i>
+					  </a>
+	  
+					  <a
+						class="nav-link dropdown-toggle d-none d-sm-inline-block"
+						href="#"
+						data-bs-toggle="dropdown"
+					  >
+						<img
+						  src="img/avatars/avatar.jpg"
+						  class="avatar img-fluid rounded me-1"
+						  alt="Xorizn"
+						/>
+						<span class="text-dark">Xorizn</span>
+					  </a>
+					  <div class="dropdown-menu dropdown-menu-end">
+						<a class="dropdown-item" href="/"
+						  ><i class="align-middle me-1" data-feather="home"></i>
+						  Home</a
+						>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="https://wa.me/6281337541779"
+						  ><i
+							class="align-middle me-1"
+							data-feather="help-circle"
+						  ></i>
+						  Help</a
+						>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="/">Log out</a>
+					  </div>
+					</li>
+				  </ul>
+				</div>
+			  </nav>
+			  <div id="Error"></div>
+
+			<main class="content">
+				<div class="container-fluid p-0">
+
+					<div class="mb-3">
+						<h1 class="h3 d-inline align-middle">Direct Download</h1>
+					</div>
+					<div class="row">
+						<div class="col-12 col-lg-6">
+							<div class="card">
+								<div class="card-body">
+<div class="container">
+    	<div class="container__item container__item--bottom">
+    	    <center>
+    	        <p><h4>TWITTER</h4>Rules<br>
+					SETELAH TEMPEL LINK/KETIK<br>
+					LANGSUNG KLIK <b>DOWN</b>
+					DAN TUNGGU BEBERAPA DETIK.
+					JIKA TIDAK RESPON, SEGERA HUBINGI OWNER</p>
+    	    </center>
+	</div>
+	<div class="container__item">
+			<input type="text" id="input-get" class="form__field" placeholder="Paste Your Link" onkeyup="trackChange(this.value)" id="myInput"><br>
+			<a id="myBtn"><div class="hooh"><button id="btn-get" class="btn btn--primary btn--inside uppercase">DOWN</button></div></a>
+	</div>
+	<div class="container__item container__item--bottom">
+	    <br>
+<div id="Download"></div>
+
+	</div>
+</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12 col-md-6">
+						<div class="card">
+							<div class="card-header">
+								<div id="msg"></div><div id="reload"></div>
+								<div id="HdBos"></div>
+								<div id="SdBos"></div>
+							</div>
+							<div class="card-body">
+								<div id="DeskNya"></div>
+<div id="UrlNya"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</main>
+
+			 <footer class="footer">
+          <div class="container-fluid">
+            <div class="row text-muted">
+              <center>
+                <p class="mb-0">
+                  <a
+                    class="text-muted"
+                    href="https://youtube.com/c/Xorizn"
+                    target="_blank"
+                    ><center>COPYRIGHTS</center>
+                    &copy;<strong>XORIZN ALL RIGHTS RESERVED</strong></a
+                  >
+                </p>
+              </center>
+            </div>
+          </div>
+        </footer>
+		</div>
+	</div>
+
+	<script src="js/app.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+		  // Pie chart
+		  new Chart(document.getElementById("chartjs-dashboard-pie"), {
+			type: "pie",
+			data: {
+			  labels: ["Chrome", "Firefox", "IE"],
+			  datasets: [
+				{
+				  data: [4306, 3801, 1689],
+				  backgroundColor: [
+					window.theme.primary,
+					window.theme.warning,
+					window.theme.danger,
+				  ],
+				  borderWidth: 5,
+				},
+			  ],
+			},
+			options: {
+			  responsive: !window.MSInputMethodContext,
+			  maintainAspectRatio: false,
+			  legend: {
+				display: false,
+			  },
+			  cutoutPercentage: 75,
+			},
+		  });
+		});
+	  </script>
+<script>
+  function displayMessage(){
+	  document.getElementById("msg").innerHTML = '<h5  align="center" class="card-title mb-0 anua" >LOADING....</h5>';
+	  setTimeout(() => {
+		anu = '<a onclick="location.reload(true);"><h5  align="center" style="color:red;" class="card-title mb-0 anua" >JIKA ERROR SELAHKAN RELOAD WEB</h5></a>'
+		document.getElementById("reload").innerHTML = anu
+	  }, 10000)
+  }   
+  // get reference to button
+  var btn = document.getElementById("myBtn");
+  // add event listener for the button, for action "click"
+  btn.addEventListener("click", displayMessage);
+</script>
+  <script>
+let btnGet = document.querySelector('#btn-get');
+let inputGet = document.querySelector('#input-get');
+let result = document.querySelector('#result');
+var xr = document.querySelector(".hamb");
+var navlist = document.querySelector(".nav-list");
+var links = document.querySelector(".nav-list li");
+
+btnGet.addEventListener('click', () =>{
+//https://twitter.com/PardonMyMeme/status/1576066261918060545?s=20&t=OG5vYef2Rhv7DFLJg7M6CA
+$.getJSON("https://xorizn-web.herokuapp.com/api/twitter?link="+inputGet.value, function(data){
+	  if(data.result){
+	  var res = data.result
+	  var HD = '<a href="'+res.mp4x1280.link+'"><button class="btn" style="width:100%"><i class="fa fa-download"></i> Download HD</button></a> <br>'
+	  var SD = '<a href="'+res.mp4x480.link+'"><button class="btn" style="width:100%"><i class="fa fa-download"></i> Download SD</button></a>'
+	  document.getElementById('HdBos').innerHTML = HD;
+	  document.getElementById('SdBos').innerHTML = SD;
+	  } else {
+		var ttxx = `<div class="alert"><span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span><strong><i class="align-middle me-1" data-feather="alert-triangle"></i> MASUKAN INPUT</strong>, Kalau tidak muncul result, silahkan hubungi owner</div>`
+		document.getElementById('Error').innerHTML = ttxx;
+	  }
+
+  });
+});
+
+xr.addEventListener("click", function(){
+  this.classList.toggle("click");
+  navlist.classList.toggle("open");
+  
+})
+  </script>
+</body>
+
+</html>
