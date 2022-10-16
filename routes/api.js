@@ -30,7 +30,7 @@ var {
     Gempa
 } = require('./../lib');
 
-var { igdwn, fbdwn, joox, tiktok, twdwn, styletext, ringtone, quotesAnime, wallpaper, wikimedia, musically, pinterest, dBinary, eBinary, jadwaltv, ytmp3, ytmp4 } = require("./../lib/dwn"); //fuck siapa yang ngubah oi?
+var { igdwn, fbdwn, nhen, joox, tiktok, twdwn, styletext, ringtone, quotesAnime, wallpaper, wikimedia, musically, pinterest, dBinary, eBinary, jadwaltv, ytmp3, ytmp4 } = require("./../lib/dwn"); //fuck siapa yang ngubah oi?
 
 errer = {
     notparam: {
@@ -146,6 +146,22 @@ errer = {
         message: '404 not result'
     }
 }
+router.get('/nhentai', async (req, res, next) => {
+    text = req.query.text
+    if (!text) return res.json({ status : false, creator : `${creator}`, message : "masukan parameter text"})
+
+       nhen(`${text}`)
+        .then(data => {
+        var result = data;
+             res.json({
+             	author: `${creator}`,
+                result
+             })
+         })
+         .catch(e => {
+         	res.json(errer.error)
+})
+})
 
 router.get('/styletext', async (req, res, next) => {
     text = req.query.text
